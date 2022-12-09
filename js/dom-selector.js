@@ -15,3 +15,9 @@ let var5 = document.getElementsByClassName('className');
 for (let var6 of var5){
    console.log(var6.innerHTML);
 }
+
+// Option-4/ Document.querySelectorAll
+let var7 = document.querySelectorAll('className/IDName with symbol(./#)');
+for (let var8 of var7){
+   console.log(var8.innerHTML);
+}
