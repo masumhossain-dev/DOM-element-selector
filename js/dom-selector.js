@@ -21,3 +21,9 @@ let var7 = document.querySelectorAll('className/IDName with symbol(./#)');
 for (let var8 of var7){
    console.log(var8.innerHTML);
 }
+
+// Option-4/ Document.querySelector
+let var9 = document.querySelector('className/IDName with symbol(./#)');
+for (let var10 of var9){
+   console.log(var10.innerHTML);
+}
